@@ -1,0 +1,9 @@
+insert into todo (id, name, completed) values(nextval('hibernate_sequence'), 'Einkaufen', true);
+insert into todo (id, name, completed) values(nextval('hibernate_sequence'), 'Sport', true);
+insert into todo (id, name, completed) values(nextval('hibernate_sequence'), 'kochen', false);
+
+==================================================================================================
+
+quarkus.http.cors=true
+quarkus.http.cors.origins=*
+quarkus.http.cors.methods=GET, OPTIONS, POST, DELETE, PUT
